@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Sarah Johnson's Resume</title>
+    <link rel="stylesheet" href="projects.css" type="text/css">
+</head>
+<body>
+<div id="page-wrapper">
+    <header>
+        <h1>Sarah Johnson</h1>
+        <p>My Online Resume</p>
+    </header>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../exper/exper.html">Experiences</a></li>
+                <li><a href="../edu/edu.html">Education</a></li>
+                <li><a href="../ref/ref.html">References</a></li>
+                <li><a href="../cert/cert.html">Certificates</a></li>
+                <li><a href="../docs/docs.html">Documents</a></li>
+                <li><a href="../projects/projects.html">Projects</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Projects</h2>
+            <h3>Recipe Book App (Django)</h3>
+            <ul>
+                <li>Built a recipe management site with user authentication and database integration.</li>
+                <li>Users can log meals, upload images, and save favorite recipes.</li>
+            </ul>
+
+            <h3>Movie Database Analysis (Python, SQL)</h3>
+            <ul>
+                <li>Analyzed 1,000+ movie records to find patterns in ratings and awards.</li>
+                <li>Used SQL queries and matplotlib to visualize trends.</li>
+            </ul>
+
+            <h1>Calculator</h1>
+            <div id="calc">
+                <div id="inputs">
+                    <label for="one">First Number:</label><input type="text" id="first-number">
+                    <label for="two">Second Number:</label><input type="text" id="second-number">
+
+                </div>
+                <div id="buttons">
+                    <button onclick="Addition()">+</button>
+                    <button onclick="Subtraction()">-</button>
+                    <button onclick="Multiplication()">*</button>
+                    <button onclick="Division()">/</button>
+                    <button onclick="Power()">**</button>
+                    <button onclick="Clear()">Clear</button>
+                </div>
+
+                <h3 id="output"></h3>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>All rights reserved <a href="../credits.html">Credits</a> &#169;</p>
+    </footer>
+</div>
+<script src="projects.js"></script>
+</body>
+
+</html>
