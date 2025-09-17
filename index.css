@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: center;
     background-color: olivedrab;
-    padding: 8px;
+    padding: 16px;
 }
 
 nav ul {
