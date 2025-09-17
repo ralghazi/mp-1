@@ -69,6 +69,7 @@ header {
     text-align: left;
     padding: 12px 12px;
     background-color: darkgreen;
+    color: antiquewhite;
 }
 
 h1, h2 {
@@ -104,6 +105,19 @@ p {
 #calc button {
     padding: 8px 12px;
 }
+
+footer {
+    text-align: center;
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+
+a {
+    font-size: calc(14px + 0.4vw);
+    text-align: left;
+}
+
+
 /* above desktop below is mobile */
 
 @media screen and (max-width: 750px) {
@@ -121,6 +135,7 @@ p {
 
     main {
         width: 100%;
+        height: auto;
     }
 
     nav ul {
