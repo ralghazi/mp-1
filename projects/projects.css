@@ -89,10 +89,14 @@ p {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    background-color: olivedrab;
+    padding: 16px;
+    border: 2px solid darkgreen;
 }
 
 #inputs {
     display: flex;
+    flex-direction: row;
     gap: 8px;
     flex-wrap: wrap;
 }
